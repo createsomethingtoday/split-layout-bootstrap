@@ -2,14 +2,14 @@
   position: absolute;
   top: 0;
   right: 50%;
-  transition: .3s;
+  transition: .5s;
   z-index: 1;
   width: 100vw;
   height: 100vh;
 }
 .left-image:hover {
   right:20%;
-  z-index: 2;
+  z-index: 100;
 }
 .left-image img {
   width: 100%;
@@ -20,7 +20,7 @@
   position: absolute;
   top: 0;
   left: 50%;
-  transition: .3s;
+  transition: .5s;
   z-index: 1;
   width: 100vw;
   height: 100vh;
@@ -28,7 +28,7 @@
 
 .right-image:hover {
   left: 20%;
-  z-index: 2;
+  z-index: 100;
 }
 .right-image img {
   width: 100%;
