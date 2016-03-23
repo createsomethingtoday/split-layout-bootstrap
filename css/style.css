@@ -77,7 +77,7 @@
 @keyframes fadeInLeft {
   0% {
     opacity: 0;
-    transform: translate3d(0, 0, 100%);
+    transform: translate3d(-100%, 0, 0);
   }
 
   100% {
@@ -94,7 +94,7 @@
   /** Reverse "exit" animations */
 }
 .m-scene .scene_element {
-  animation-duration: 0.25s;
+  animation-duration: 1s;
   transition-timing-function: ease-in;
   animation-fill-mode: both;
 }
