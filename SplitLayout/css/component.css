@@ -63,6 +63,14 @@ body {
   color: #101010;
 }
 
+.side-left {
+  width: 55%;
+}
+
+.side-right {
+  width: 45%;
+}
+
 /* Intro content, profile image and name, back button */
 
 .intro-content {
