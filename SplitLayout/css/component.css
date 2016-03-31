@@ -62,11 +62,9 @@ body {
   background-size: cover;
   color: #101010;
 }
-
 .side-left {
   width: 55%;
 }
-
 .side-right {
   width: 45%;
 }
@@ -102,7 +100,13 @@ body {
 .intro-content h1 > span:first-child {
   font-weight: 300;
   font-size: 2em;
-  font-family: Liberator-Heavy;
+  font-family: Liberator-Light;
+  color: #F9F9F9;
+  width: 5em;
+  background: #c8b698;
+  height: 1.4em;
+  margin: 0 auto;
+  line-height: 1.3em;
 }
 .intro-content h1 > span:nth-child(2) {
   position: relative;

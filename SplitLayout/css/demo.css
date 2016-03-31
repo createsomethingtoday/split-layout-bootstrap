@@ -12,14 +12,14 @@
 } /* Made with http://icomoon.io/ */
 
 @font-face {
-font-family: Liberator-Heavy;
-src: url("../fonts/Liberator-Heavy.otf") format("opentype");
+font-family: Liberator-Light;
+src: url("../fonts/Liberator-Light.otf") format("opentype");
 }
 
 @font-face {
-font-family: Liberator-Heavy;
-font-weight: bold;
-src: url("../fonts/Liberator-Heavy.otf") format("opentype");
+font-family: Liberator-Light;
+/*font-weight: bold;*/
+src: url("../fonts/Liberator-Light.otf") format("opentype");
 }
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
