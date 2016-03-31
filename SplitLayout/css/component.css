@@ -125,6 +125,14 @@ body {
   background: #101010;
   content: '';
 }
+
+.side-left .intro-content {
+  left: 30%;
+}
+
+.side-right .intro-content {
+  left: 70%;
+}
 .side-right .intro-content h1 > span:nth-child(2):before {
   background: #101010;
 }
