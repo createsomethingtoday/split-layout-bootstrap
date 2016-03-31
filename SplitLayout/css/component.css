@@ -102,6 +102,7 @@ body {
 .intro-content h1 > span:first-child {
   font-weight: 300;
   font-size: 2em;
+  font-family: Liberator-Heavy;
 }
 .intro-content h1 > span:nth-child(2) {
   position: relative;

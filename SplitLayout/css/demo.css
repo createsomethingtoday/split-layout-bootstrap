@@ -11,6 +11,17 @@
 	font-style: normal;
 } /* Made with http://icomoon.io/ */
 
+@font-face {
+font-family: Liberator-Heavy;
+src: url("../fonts/Liberator-Heavy.otf") format("opentype");
+}
+
+@font-face {
+font-family: Liberator-Heavy;
+font-weight: bold;
+src: url("../fonts/Liberator-Heavy.otf") format("opentype");
+}
+
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 body, html { font-size: 100%; padding: 0; margin: 0;}
 
