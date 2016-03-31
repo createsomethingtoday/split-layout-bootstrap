@@ -93,6 +93,15 @@ body {
   border-radius: 50%;
   opacity: 0.6;
 }
+/*H1 CTA Text Position*/
+h1.side-left-hover {
+    position: absolute;
+    left: -60px;
+}
+h1.side-right-hover {
+    position: absolute;
+    right: -60px;
+}
 .intro-content h1 > span {
   display: block;
   white-space: nowrap;
