@@ -189,19 +189,21 @@ body {
   top: 0;
   overflow: auto;
   min-height: 100%;
-  width: 75%;
+  width: 100%;
   height: auto;
   font-size: 1.4em;
   -webkit-backface-visibility: hidden;
+  z-index: 200;
 }
 .page-right {
-  left: 25%;
+  left: 0%;
   outline: 5px solid #ecf0f1;
   /* avoid rounding gaps */
   background: #ecf0f1;
   color: #97a8b2;
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
+  text-align: right;
 }
 .splitlayout.open-right {
   background: #ecf0f1;
@@ -212,7 +214,7 @@ body {
   /* avoid rounding gaps */
   background: #34495e;
   color: #fff;
-  text-align: right;
+  text-align: left;
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
 }
