@@ -125,13 +125,13 @@ body {
   background: #101010;
   content: '';
 }
-
 .side-left .intro-content {
-  left: 30%;
+  left: 15%;
+  position: fixed;
 }
-
 .side-right .intro-content {
-  left: 70%;
+  left: 85%;
+  position: fixed;
 }
 .side-right .intro-content h1 > span:nth-child(2):before {
   background: #101010;
