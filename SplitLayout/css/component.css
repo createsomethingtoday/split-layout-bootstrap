@@ -47,18 +47,12 @@ body {
 .side-left {
   left: 0;
   background: url(../img/supply.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   color: #101010;
 }
 .side-right {
   right: 0;
   background: url(../img/design.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   color: #101010;
 }
@@ -244,7 +238,9 @@ body {
 
 .side, .page {
   -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
   transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
 }
 .overlay {
   -webkit-transition: opacity 0.6s, visibility 0.1s 0.6s;
@@ -252,7 +248,10 @@ body {
 }
 .intro-content {
   -webkit-transition: -webkit-transform 0.6s, top 0.6s;
+  -webkit-transition: top 0.6s, -webkit-transform 0.6s;
+  transition: top 0.6s, -webkit-transform 0.6s;
   transition: transform 0.6s, top 0.6s;
+  transition: transform 0.6s, top 0.6s, -webkit-transform 0.6s;
 }
 .intro-content h1, .back {
   -webkit-transition: opacity 0.3s;
