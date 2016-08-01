@@ -39,9 +39,9 @@ body {
     height: 100%;
     opacity: 0;
 }
-.side-left .overlay {
+/*.side-left .overlay {
     background: rgba(0, 0, 0, 0.7);
-}
+}*/
 .side-right .overlay {
     background: rgba(0, 0, 0, 0.3);
 }
