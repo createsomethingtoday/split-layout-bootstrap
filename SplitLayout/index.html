@@ -10,7 +10,7 @@
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/demo.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
@@ -21,7 +21,7 @@
 						<div class="left-image"></div>
 						<div class="intro-content">
 							<!-- <div class="profile"><img src="img/profile1.jpg" alt="profile1"></div> -->
-							<h1 class="side-left-hover"><span>Supply</span><!-- <span>Web Designer</span> --></h1>
+							<h1 class="side-left-hover" id="button-left"><span>Supply</span><!-- <span>Web Designer</span> --></h1>
 						</div>
 						<div class="overlay"></div>
 					</div>
@@ -29,11 +29,12 @@
 						<div class="right-image"></div>
 						<div class="intro-content">
 							<!-- <div class="profile"><img src="img/profile2.jpg" alt="profile2"></div> -->
-							<h1 class="side-right-hover"><span>Design</span><!-- <span>Web Design</span> --></h1>
+							<h1 class="side-right-hover" id="button-right"><span>Design</span><!-- <span>Web Design</span> --></h1>
 						</div>
 						<div class="overlay"></div>
 					</div>
-				</div><!-- /intro -->
+				</div>
+				<!-- /intro -->
 				<div class="page page-right">
 					<div class="page-inner">
 						<section>
@@ -93,13 +94,16 @@
 						</section>
 					</div><!-- /page-inner -->
 				</div><!-- /page-left -->
-				<a href="#" class="back back-right" title="back to intro">&rarr;</a>
-				<a href="#" class="back back-left" title="back to intro">&larr;</a>
+				<a href="#" class="back back-right" id="button-back-right" title="back to intro">&rarr;</a>
+				<a href="#" class="back back-left" id="button-back-left" title="back to intro">&larr;</a>
 			</div><!-- /splitlayout -->
+			<footer class="site-footer" id="site-footer"></footer>
 		</div><!-- /container -->
 		<script src="js/classie.min.js"></script>
 		<script src="js/cbpSplitLayout.min.js"></script>
 		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 		<script src="js/hover.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="js/footer.js"></script>
 	</body>
 </html>

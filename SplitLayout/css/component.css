@@ -100,6 +100,17 @@ body {
     z-index: 200;
 }
 
+/*Sticky Footer*/
+.site-footer {
+  display: block;
+  position: absolute;
+  background: red;
+  width: 100%;
+  height: 4em;
+  z-index: 999;
+  top: 93vh;
+}
+
 /* Intro content, profile image and name, back button */
 
 .intro-content {
